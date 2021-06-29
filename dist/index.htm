@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="page-name">
+      <img src="https://cdn.icon-icons.com/icons2/2557/PNG/512/sunny_weather_icon_153097.png" alt="logo">Weather App</h1>
+    </header>
+    <main class="main">
+      <form class="form" id="searchForm" novalidate>
+        <input class="input" id="searchInput" type="text" placeholder="Enter city name" />
+        <button class="btn btn-submit" id="searchBtn" type="submit">Search</button>
+      </form>
+      <div class="search-result" id="searchResult">
+        <h3 id="cityName"></h3>
+        <p id="temperature"></p>
+        <div class="btnwrapper">
+        <button id="fahrenheit">Convert to F</button>
+        </div>
+        <p id="feelsLike"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+    </main>
+    <footer>
+      <hr>Made by <a href="https://www.github.com/micsparrow">MicSparrow</a>, 2021
+      <hr>
+    </footer>
+    <script src="main.js" defer></script>
+  </body>
+
+</html>

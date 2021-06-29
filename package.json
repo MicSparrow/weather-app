@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "This is the latest The Odin Project task - making a weather app. Here an API system is being learnt and used.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicSparrow/weather-app.git"
+  },
+  "author": "MicSparrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicSparrow/weather-app/issues"
+  },
+  "homepage": "https://github.com/MicSparrow/weather-app#readme",
+  "devDependencies": {
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
